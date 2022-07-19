@@ -1,0 +1,34 @@
+/* .project{
+    size: 50px;
+    padding: auto;
+    padding-top: 10px;
+
+} */
+@media screen and (min-width: 480px) {
+    .column {
+        float: left;
+        width: 48%;
+        padding: 5px;
+      }
+    
+    }
+
+.column {
+    /* float: left; */
+    width: 48%;
+    padding: 50px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .row{
+    background-color: yellow;
+    align-content: center;
+    height: 100%;
+    
+  }

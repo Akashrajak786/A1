@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1{
+    font-size: bold;
+    color: white;
+  }
+  body {
+    font-family: Arial, Tahoma, Serif;
+    color: white;
+  }
+  nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 1rem 2rem; /* 3 */
+    background: navy; /* 4 */
+  }
+  
+  nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    padding-top: 10px;
+  }
+  
+  nav li {
+    padding-left: 3rem; /* 7! */
+    text-align: right;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 3erpm;
+  }
+  nav{
+    color: white
+    background-color
+    ;
+  }
+
+  .column{
+    float: right;
+   margin-top: 8px;
+   padding: 5px;
+   
+  }
+
+  svg{
+    color: white;
+  }
+   

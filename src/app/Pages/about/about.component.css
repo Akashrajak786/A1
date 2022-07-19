@@ -1,0 +1,26 @@
+.A1{
+    background: url(../../../assets/images/background.jpg);
+    background-size:cover;
+   height: 800px;
+   width: 100%;
+    background-repeat: no-repeat;
+    
+}
+p{
+    font-weight: bold;
+    font-size: medium;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+h1{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .about-mb-1{
+    color: red;
+    border: 1px;
+}  */
