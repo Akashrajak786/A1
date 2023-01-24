@@ -1,53 +1,80 @@
-p{
-    font-size: bold;
-    text-align: center;
-    color: white;
+p {
+  font-size: bold;
+  /* text-align: center; */
+  color: rgb(26, 25, 25);
 }
-footer
-{
-    background-color: rgb(27, 25, 25);
-   
-}
-h2{
-    color: white;
-}
-h4{
-  text-align: center;
-  color: white;
-    
+
+footer {
+  background-color: rgb(27, 25, 25);
 
 }
-.images{
-    align-items: center;
-    border-image: auto;
+
+h2 {
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+
+
+}
+
+.images {
+  align-items: center;
+  border-image: auto;
 }
 
 @media screen and (min-width:480px) {
-    .mkdf-page-footer{
-        display:flex;
+  .mkdf-page-footer {
+    display: flex;
 
-        width:100%
-    }
-    
+    width: 100%
+  }
+
 }
+
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 30px;
-    
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  #text-3{
-    padding-left: -100px!important;
-  }
+  float: left;
+  width: 33.33%;
+  padding: 30px;
 
-  .Projects{
-    align-items: center;
+}
 
-  }
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#text-3 {
+  padding-left: -100px !important;
+}
+
+.Projects {
+  align-items: center;
+
+}
+
+#footercards img {
+  transition: transform .2s;
+  margin: 0px 10px 30px 20px;
+}
+
+#footercards img:hover{
+  transform: scale(1.2);
+}
+
+
+#footerText
+{
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+
+}
+
+.copyright{
+  text-align: center;
+  background-color: #aaa;
+}

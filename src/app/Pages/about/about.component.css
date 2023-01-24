@@ -4,6 +4,7 @@
    height: 800px;
    width: 100%;
     background-repeat: no-repeat;
+    opacity: 1;
     
 }
 p{
@@ -11,12 +12,15 @@ p{
     font-size: medium;
     padding-top: 100px;
     padding-left: 100px;
+    color: white;
+
 }
 
 
 h1{
     padding-top: 100px;
     padding-left: 100px;
+    color: white;
     font-size: 100px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -24,3 +28,14 @@ h1{
     color: red;
     border: 1px;
 }  */
+
+.wpb_wrapper
+{
+    background-color: black;
+    width: 100%;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}

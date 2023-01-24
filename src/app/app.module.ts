@@ -9,6 +9,11 @@ import { ContactComponent } from './Pages/contact/contact.component';
 import { OurProjectComponent } from './Pages/our-project/our-project.component';
 import { NavbarComponent } from './StaticPage/navbar/navbar.component';
 import { FooterComponent } from './StaticPage/footer/footer.component';
+import { OurPromotorsComponent } from './our-promotors/our-promotors.component';
+import { EmiComponent } from './Staticpage/emi/emi.component';
+import { JanakpurimoreComponent } from './janakpurimore/janakpurimore.component';
+import { SudhamoreComponent } from './sudhamore/sudhamore.component';
+import { CoralwoodmoreComponent } from './coralwoodmore/coralwoodmore.component';
 
 
 @NgModule({
@@ -19,7 +24,12 @@ import { FooterComponent } from './StaticPage/footer/footer.component';
     ContactComponent,
     OurProjectComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    OurPromotorsComponent,
+    EmiComponent,
+    JanakpurimoreComponent,
+    SudhamoreComponent,
+    CoralwoodmoreComponent
   ],
   imports: [
     BrowserModule,

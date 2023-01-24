@@ -1,0 +1,121 @@
+.contact-page {
+  width: 500px;
+  /* margin: 50px auto; */
+  /* text-align: center; */
+  float: right;
+  /* padding-left: 400px;   */
+  position:relative; 
+  left:800px; 
+  top:2px;
+}
+.container{
+  background-image: url('../../../assets/images/contactimgjpg.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+
+}
+
+ h1 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.contact-page form {
+  margin: 20px 0;
+  
+}
+
+.contact-page label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page textarea {
+  width: 100%;
+  /* padding: 12px; */
+  font-size: 1.2em;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.contact-page input[type="text"]:focus,
+.contact-page input[type="email"]:focus,
+.contact-page textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* .submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+} */
+
+/* .contact-image{
+  float: right;
+  padding-left: 10px;
+  /* height: 400px;
+  width: 300px; */
+
+  button{
+    display: inline-block;
+    position: relative;
+    color: #19aae6;
+    background: #ffffff ; 
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 16px 24px;
+    margin: 20px;
+    border: 2px solid #19aae6;
+    border-radius: 28px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    
+  }
+  button::before{
+    content: "";
+    position: Absolute;
+    background: #19aae6;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+
+
+  }
+  button:hover{
+    color: #ffffff ;
+  }
+
+  button::before{
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+
+  }
+ button:hover::before{
+  top: -30px;
+  left: -30px;
+ }
+ button:active::before{
+  background: #acc9d5 ;
+  transition: 0s;
+ }

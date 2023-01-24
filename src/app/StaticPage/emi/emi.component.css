@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3b4368 !important;
+  }
+  
+  h1 {
+    color: #191d3a !important;
+  }
+  
+  h1 i {
+    color: #191d3a !important;
+  }
+  
+  .btn-dark {
+    background-color: #191d3a !important;
+  }
+  
+  #loading {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+    border: 2px solid #b3b7e2;
+    border-radius: 50%;
+    border-top-color: #191d3a;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  #results {
+    display: none;
+    transition: display 0.3s;
+  }
+  

@@ -15,13 +15,14 @@
     display: flex; /* 1 */
     justify-content: space-between; /* 2 */
     padding: 1rem 2rem; /* 3 */
-    background: navy; /* 4 */
+    background:#7286D3 /* 4 */
   }
   
   nav ul {
     display: flex; /* 5 */
     list-style: none; /* 6 */
     padding-top: 10px;
+    font-size: 20px;
   }
   
   nav li {
@@ -33,6 +34,10 @@
     color: white;
     padding: 3erpm;
   }
+
+  
+
+  
   nav{
     color: white
     background-color
@@ -50,3 +55,33 @@
     color: white;
   }
    
+
+  .header h1{
+    text-align: center;
+    padding-left: 300px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.header h1:hover{
+  color:#8EA7E9;
+  transform: scale(1.1);
+}
+
+.header h1 a{
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+
+ li a{
+  text-decoration: none;
+  
+
+}
+ li a:hover{
+text-decoration: underline;
+color: rgb(5, 53, 83);
+}
