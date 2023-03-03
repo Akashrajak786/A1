@@ -1,3 +1,8 @@
+.carousel-inner{
+    transition: 300ms;
+}
+
+
 .images{
     background-size: cover;
 }
@@ -28,7 +33,7 @@
     }
 .row .card img:hover{
     transform: scale(0.9);
-  transition:  0.5s ease;
+  transition: all .3s ease;
 
 }
 
@@ -51,3 +56,11 @@
     background-color: aliceblue;
     text-align: center;
 }
+.moving-content
+{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: #00c6ff;
+}
+
